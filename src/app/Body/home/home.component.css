@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    /* background-color: rgb(204, 246, 225);*/
+   background-color: rgb(208 245 226 / 50%);
+    height: 70vh;
+}
+
+.detail{
+    display: flex;
+    height: 70vh;
+    /* background-color: blue; */
+    justify-content: center;
+}
+
+.intro{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+    font-family: 'Quicksand', sans-serif;
+    /* height: 60vh; */
+}
+
+ /* .photo{
+    background-color:greenyellow;
+     height: 60vh;
+ } */
+
+
+.devPic img{
+    width: 500px;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+}
+
+.profession{
+    font-size: 40px;
+}
+
+.button{
+    margin-top: 15px;
+}

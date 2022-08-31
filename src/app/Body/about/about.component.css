@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    background-color: rgb(208 245 226 / 50%);
+    width: 100vw;
+}
+.aboutImg img{
+    margin-top: 15px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.intro {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin-left: 110px;
+}
+
+.tag h1{
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ .detail p{
+    font-size: 19px;
+ }

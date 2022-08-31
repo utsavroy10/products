@@ -1,0 +1,16 @@
+footer{
+    background-color: rgb(182, 255, 220);
+    height: 15vh;
+    border-top: 2px solid rgb(177, 182, 186);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ref{
+    display: flex;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Quicksand:wght@400;600&display=swap');
+
+.navbar{
+    background-color: rgb(182, 255, 220);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    border-bottom: 2px solid rgb(177, 182, 186);
+}
+.navbar-brand{
+    margin: 0 0 0 20px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse ul li a {
+    margin-left: 110px;
+    font-size: 20px;
+    /* font-family: 'Libre Caslon Text', serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-collapse ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.active{
+    font-weight: bold;
+}

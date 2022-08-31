@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.container1{
+    background-color: rgb(208 245 226 / 50%);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.tag h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.img svg{
+    height: 20px;
+}
