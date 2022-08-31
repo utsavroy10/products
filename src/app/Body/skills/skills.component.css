@@ -12,11 +12,19 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.skills{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsgr{
     display: flex;
     flex-direction: row;
 }
 
-.img svg{
-    height: 20px;
+.img img{
+    height: 135px;
+    
 }
