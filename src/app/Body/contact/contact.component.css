@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body
+{
+    background-color: rgb(208 245 226 / 50%);
+    height: 70vh;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text1{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text2{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text2 h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container2 h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.bi{
+    /* color:  #039BE5; */
+    /* color: #AD4BD5; */
+    color: #0D6EFD;
+}
+
+.bi-send-fill{
+        margin-top: 62px;
+}
+
+/* .btn{
+    background-color: #AD4BD5;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #AD4BD5;
+    color: #AD4BD5;
+} */
+
+.contactdetails{
+    display: flex;
+    margin: 16px 0 16px 0;
+}
+strong{
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+strong a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hey{
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+ @media screen and (max-width: 1010px) {
+    .container1{
+        
+        flex-direction: column;
+    }
+    .text1{
+        margin-top: 10px;
+        flex-direction: column;
+        
+    }
+    .text1 svg{
+        margin-bottom: 10px;
+    }
+    .text2 {
+        align-items: center;
+    }
+    .text2 h2{
+        font-size: 30px;
+    }
+    .text2 p{
+        text-align: center;
+    }
+    .card:hover{
+        border-bottom: 10px solid  rgb(255, 162, 162);
+        box-shadow: 5px;
+    }
+} 

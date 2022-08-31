@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './Body/about/about.component';
 import { SkillsComponent } from './Body/skills/skills.component';
 import { ContactComponent } from './Body/contact/contact.component';
+import { WorksComponent } from './works/works.component';
 
 const portfolioroutes:Routes=[
   {
@@ -28,6 +29,10 @@ const portfolioroutes:Routes=[
     path: 'contact',
     component: ContactComponent
   },
+  {
+    path: 'works',
+    component: WorksComponent
+  },
 ]
 @NgModule({
   declarations: [
@@ -37,7 +42,8 @@ const portfolioroutes:Routes=[
     FooterComponent,
     AboutComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,
